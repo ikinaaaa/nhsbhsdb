@@ -11,7 +11,10 @@
     font-family: 'Gang';
     src: url(fonts/go3v2.ttf);
 }
-
+mark{
+    background-color: black;
+    color: #AF220E;
+}
 :root{
     --white:#E2E2E2;
     --black:#373334;
@@ -129,8 +132,12 @@ background-color: var(--black);
 }
 .text1{
     width: 60%;
-    font-size: 190%;
+    font-size: 150%;
     text-align: center;
+}
+.lower{
+    padding-top: 3%;
+    font-size: 130%;
 }
 .buttons-contract-container{
     display: flex;
@@ -333,10 +340,10 @@ background-color: var(--black);
     justify-content: center;
     align-items: center;
     opacity: 0;
-    color: #E2E2E2;
+    color: var(--white);
     text-align: center;
     position: absolute;
-    background-color: var(--black);
+    background-color: var(--red);
     border-radius: 55px;
     height: 75%;
     width: 40%;
@@ -353,19 +360,23 @@ background-color: var(--black);
     height: 17%;
     display: flex;
     flex-direction: row;
+    gap: 3%;
 }
 .card-number{
     height: 100%;
-    width: 10%;
-    font-size: 350%;
+    width: auto;
+    font-size: 300%;
+}
+.card-number p{
+    color: black;
 }
 .card-phase{
-    font-size: 70%;
-    padding-top: 3%;
-    height: 100%;
+    font-size: 300%;
+    height: auto;
     width: 8%;
 }
 .card-bullets{
+    display: flex;
     line-height: 230%;
     font-size: 150%;
     text-align: left;
@@ -612,6 +623,9 @@ h2{
     justify-content: center; 
     height: auto;
     width: auto;
+}
+.end-nav-element p:hover{
+    color: #AF220E;
 }
 .end-socials-arrow{
     display: flex;
