@@ -120,6 +120,7 @@ background-color: var(--black);
     align-items: center;
     background-image: url(images/fish.png);
     background-position: center;
+    background-size: 100%;
 }
 .title1{
     width: auto;
@@ -612,6 +613,7 @@ h2{
     width: 33%;
     font-size: 200%;
     background-image: url(images/full-logo.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
